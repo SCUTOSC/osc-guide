@@ -134,6 +134,14 @@ export default hopeTheme({
 
     feed: {
       rss: true,
+      devServer: true,
+    },
+
+    pwa: {
+      favicon: "/osc_favicon.ico",
+      cacheImage: true,
+      cacheHTML: true,
+      appendBase: true,
     }
 
     // 如果你需要 PWA。安装 @vuepress/plugin-pwa 并取消下方注释
