@@ -8,6 +8,10 @@ icon: "fa-brands fa-microsoft"
 
 ::: warning
 在安装软件时，请务必以学校提供的教程为准，以免出现不必要的问题。
+
+软件激活需在校园网或者 [在校外网络登陆VPN](https://www.scut.edu.cn/vpn/) 才能成功激活。
+
+激活软件请前往 [工具文档 - 微软正版化服务平台](https://msweb.scut.edu.cn/docs.htm) 处下载。
 :::
 
 SCUT学生可以 **下载学校提供的微软正版软件**，并 **通过学校的激活工具**，**在校园网环境下** 激活。
