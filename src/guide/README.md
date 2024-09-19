@@ -3,6 +3,8 @@ title: Get Started
 icon: lightbulb
 ---
 
+<Catalog />
+
 ## 学会阅读文档
 
 TODO

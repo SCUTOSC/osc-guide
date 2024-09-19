@@ -13,7 +13,8 @@ export default hopeTheme({
 
   iconAssets: "fontawesome-with-brands",
 
-  logo: "/osc@0.25x.png",
+  logo: "/osc_logo.png",
+  favicon: "/osc_favicon.ico",
 
   repo: "SCUTOSC/osc-guide",
 
@@ -110,7 +111,7 @@ export default hopeTheme({
       // katex: true,
 
       // 在启用之前安装 mathjax-full
-      mathjax: true,
+      // mathjax: true,
 
       // 在启用之前安装 mermaid
       // mermaid: true,
@@ -130,6 +131,10 @@ export default hopeTheme({
       // install sandpack-vue3 before enabling it
       // sandpack: true,
     },
+
+    feed: {
+      rss: true,
+    }
 
     // 如果你需要 PWA。安装 @vuepress/plugin-pwa 并取消下方注释
     // pwa: {

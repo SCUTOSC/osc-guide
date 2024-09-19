@@ -2,7 +2,7 @@
 home: true
 icon: home
 title: Home
-heroImage: /osc.png
+heroImage: /osc_home.png
 # bgImage: https://theme-hope-assets.vuejs.press/bg/6-light.svg
 # bgImageDark: https://theme-hope-assets.vuejs.press/bg/6-dark.svg
 # bgImageStyle:
