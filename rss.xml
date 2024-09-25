@@ -6,8 +6,8 @@
     <link>https://guide.scutosc.cn/</link>
     <description>Get started with OSC</description>
     <language>zh-CN</language>
-    <pubDate>Fri, 20 Sep 2024 16:01:44 GMT</pubDate>
-    <lastBuildDate>Fri, 20 Sep 2024 16:01:44 GMT</lastBuildDate>
+    <pubDate>Wed, 25 Sep 2024 15:17:35 GMT</pubDate>
+    <lastBuildDate>Wed, 25 Sep 2024 15:17:35 GMT</lastBuildDate>
     <generator>@vuepress/plugin-feed</generator>
     <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
     <category>Advance</category>
@@ -180,6 +180,7 @@ Reference: <a href="https://xmake.io/#/zh-cn/plugin/more_plugins?id=vscode-%e6%8
 <div class="line-numbers" aria-hidden="true" style="counter-reset:line-number 0"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><p>然后点击 <code>default</code> 旁的小三角，你就可以运行该程序了！</p>
 <h2>配置Clangd</h2>
 <p>TODO</p>
+<div id="discourse-comments"></div>
 ]]></content:encoded>
       <enclosure url="https://raw.githubusercontent.com/xmake-io/xmake-vscode/master/res/problem.gif" type="image/gif"/>
     </item>
