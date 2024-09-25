@@ -1,4 +1,4 @@
-import{_ as e}from"./plugin-vue_export-helper-DlAUqK2U.js";import{c as t,a,o}from"./app-DRCrkvNk.js";const n={};function i(s,r){return o(),t("div",null,[a(` # highlights:
+import{_ as e}from"./plugin-vue_export-helper-DlAUqK2U.js";import{c as t,a,o}from"./app-CFp4V9T2.js";const n={};function i(s,r){return o(),t("div",null,[a(` # highlights:
 #   - header: 可定制的页面
 #     description: 完整无障碍支持的可定制外观
 #     image: /assets/image/ui.svg
