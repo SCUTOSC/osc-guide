@@ -6,14 +6,35 @@
     <link>https://guide.scutosc.cn/</link>
     <description>Get started with OSC</description>
     <language>zh-CN</language>
-    <pubDate>Wed, 25 Sep 2024 16:37:55 GMT</pubDate>
-    <lastBuildDate>Wed, 25 Sep 2024 16:37:55 GMT</lastBuildDate>
+    <pubDate>Thu, 26 Sep 2024 07:05:46 GMT</pubDate>
+    <lastBuildDate>Thu, 26 Sep 2024 07:05:46 GMT</lastBuildDate>
     <generator>@vuepress/plugin-feed</generator>
     <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
     <category>Advance</category>
     <category>guide</category>
     <category>使用指南</category>
     <category>指南</category>
+    <item>
+      <title>环境配置</title>
+      <link>https://guide.scutosc.cn/guide/environment/</link>
+      <guid>https://guide.scutosc.cn/guide/environment/</guid>
+      <source url="https://guide.scutosc.cn/rss.xml">环境配置</source>
+      <pubDate>Thu, 26 Sep 2024 05:51:43 GMT</pubDate>
+    </item>
+    <item>
+      <title>Tools</title>
+      <link>https://guide.scutosc.cn/guide/tools/</link>
+      <guid>https://guide.scutosc.cn/guide/tools/</guid>
+      <source url="https://guide.scutosc.cn/rss.xml">Tools</source>
+      <pubDate>Thu, 26 Sep 2024 05:51:43 GMT</pubDate>
+    </item>
+    <item>
+      <title>Visual Studio Code</title>
+      <link>https://guide.scutosc.cn/guide/tools/vscode/</link>
+      <guid>https://guide.scutosc.cn/guide/tools/vscode/</guid>
+      <source url="https://guide.scutosc.cn/rss.xml">Visual Studio Code</source>
+      <pubDate>Thu, 26 Sep 2024 05:51:43 GMT</pubDate>
+    </item>
     <item>
       <title>学生优惠</title>
       <link>https://guide.scutosc.cn/guide/student/</link>
@@ -80,10 +101,10 @@
 ]]></content:encoded>
     </item>
     <item>
-      <title>代码分享</title>
+      <title>代码分享工具</title>
       <link>https://guide.scutosc.cn/guide/tools/code-share.html</link>
       <guid>https://guide.scutosc.cn/guide/tools/code-share.html</guid>
-      <source url="https://guide.scutosc.cn/rss.xml">代码分享</source>
+      <source url="https://guide.scutosc.cn/rss.xml">代码分享工具</source>
       <description>carbon.now.sh carbon.now.sh 是一个代码分享工具，可以将代码转换为图片，支持多种主题、字体、背景等设置。 carbon.now.shcarbon.now.sh gist.github.com gist.github.com 是 GitHub 提供的代码片段分享服务，可以将代码片段保存为 Gist，支持多种语言、Markdown...</description>
       <pubDate>Wed, 18 Sep 2024 16:50:31 GMT</pubDate>
       <content:encoded><![CDATA[<h2>carbon.now.sh</h2>
@@ -180,7 +201,6 @@ Reference: <a href="https://xmake.io/#/zh-cn/plugin/more_plugins?id=vscode-%e6%8
 <div class="line-numbers" aria-hidden="true" style="counter-reset:line-number 0"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><p>然后点击 <code>default</code> 旁的小三角，你就可以运行该程序了！</p>
 <h2>配置Clangd</h2>
 <p>TODO</p>
-<div id="discourse-comments"></div>
 ]]></content:encoded>
       <enclosure url="https://raw.githubusercontent.com/xmake-io/xmake-vscode/master/res/problem.gif" type="image/gif"/>
     </item>
@@ -630,10 +650,6 @@ Reference: <a href="https://xmake.io/#/zh-cn/plugin/more_plugins?id=vscode-%e6%8
 <li><a href="https://theme-hope.vuejs.press/zh/guide/markdown/content/include.html" target="_blank" rel="noopener noreferrer">查看详情</a></li>
 </ul>
 <h4>TeX 语法</h4>
-<p>$$
-\frac {\partial^r} {\partial \omega^r} \left(\frac {y^{\omega}} {\omega}\right)
-= \left(\frac {y^{\omega}} {\omega}\right) \left{(\log y)^r + \sum_{i=1}^r \frac {(-1)^i r \cdots (r-i+1) (\log y)^{r-i}} {\omega^i} \right}
-$$</p>
 <ul>
 <li><a href="https://theme-hope.vuejs.press/zh/guide/markdown/grammar/tex.html" target="_blank" rel="noopener noreferrer">查看详情</a></li>
 </ul>
@@ -740,7 +756,7 @@ $$</p>
 <li><a href="https://theme-hope.vuejs.press/zh/guide/markdown/chart/plantuml.html" target="_blank" rel="noopener noreferrer">View Detail</a></li>
 </ul>
 <h4 id="代码块" tabindex="-1"><a class="header-anchor" href="#代码块"><span>代码块</span></a></h4>
-<CodeTabs id="367" :data='[{"id":"pnpm"},{"id":"yarn"},{"id":"npm"}]' :active="2">
+<CodeTabs id="365" :data='[{"id":"pnpm"},{"id":"yarn"},{"id":"npm"}]' :active="2">
 <template #title0="{ value, isActive }">pnpm</template>
 <template #title1="{ value, isActive }">yarn</template>
 <template #title2="{ value, isActive }">npm</template>
