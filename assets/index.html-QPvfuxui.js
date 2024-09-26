@@ -1,4 +1,4 @@
-import{_ as e,c as t,a as o,o as a}from"./app-Dnc8Fct3.js";const i={};function n(s,r){return a(),t("div",null,[o(` # highlights:
+import{_ as e,c as t,a as o,o as a}from"./app-Bj8G9-Oz.js";const i={};function n(s,r){return a(),t("div",null,[o(` # highlights:
 #   - header: 可定制的页面
 #     description: 完整无障碍支持的可定制外观
 #     image: /assets/image/ui.svg
