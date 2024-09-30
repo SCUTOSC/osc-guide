@@ -6,8 +6,8 @@
     <link>https://guide.scutosc.cn/</link>
     <description>Get started with OSC</description>
     <language>zh-CN</language>
-    <pubDate>Mon, 30 Sep 2024 14:45:40 GMT</pubDate>
-    <lastBuildDate>Mon, 30 Sep 2024 14:45:40 GMT</lastBuildDate>
+    <pubDate>Mon, 30 Sep 2024 15:07:16 GMT</pubDate>
+    <lastBuildDate>Mon, 30 Sep 2024 15:07:16 GMT</lastBuildDate>
     <generator>@vuepress/plugin-feed</generator>
     <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
     <category>Advance</category>
@@ -326,7 +326,8 @@ Reference: <a href="https://xmake.io/#/zh-cn/plugin/more_plugins?id=vscode-%e6%8
 <li><a href="https://www.msys2.org/" target="_blank" rel="noopener noreferrer">MSYS2</a></li>
 </ul>
 </blockquote>
-<p>MSYS2 是一个类似于 Cygwin 的项目，它提供了一套类 Unix 的环境，可以在 Windows 上运行。MSYS2 项目提供了一个软件包管理器，可以方便地安装 MinGW-w64。安装指南参考<a href="https://www.msys2.org/" target="_blank" rel="noopener noreferrer">MSYS2</a>。</p>
+<p>MSYS2 是一个类似于 Cygwin 的项目，它提供了一套类 Unix 的环境，可以在 Windows 上运行。MSYS2 项目提供了一个软件包管理器，可以方便地安装 MinGW-w64。安装指南参考<a href="https://www.msys2.org/" target="_blank" rel="noopener noreferrer">MSYS2</a>。<br>
+MSYS2可以接受CMD传递的参数，如<code>msys2.exe help</code></p>
 <h3>w64devkit</h3>
 <blockquote>
 <ul>
@@ -338,10 +339,19 @@ Reference: <a href="https://xmake.io/#/zh-cn/plugin/more_plugins?id=vscode-%e6%8
 <p>也就是说你可以把它直接丢在你的PE里，然后你在任意一台能启动的机子上都可以编译你的代码。另一方面，使用docker构建的开发环境，也很方便使用。</p>
 <p><strong>安装步骤</strong>：</p>
 <ul>
-<li>下载 <code>w64devkit</code> 的二进制包</li>
-<li>解压到你的目录下，例如 <code>C:\w64devkit</code></li>
-<li>将 <code>C:\w64devkit\bin</code> 添加到你的<a href="../environment_variable"><code>环境变量</code></a>中</li>
-<li>打开命令行，输入 <code>gcc --version</code>，如果能看到版本信息，说明安装成功</li>
+<li>
+<p>下载 <code>w64devkit</code> 的二进制包</p>
+</li>
+<li>
+<p>解压到你的目录下，例如 <code>C:\w64devkit</code></p>
+</li>
+<li>
+<p>将 <code>C:\w64devkit\bin</code> 添加到你的<a href="../environment_variable"><code>环境变量</code></a>中</p>
+<p>可以使用CMD命令<code>setx /M path "%path%;C:\w64devkit\bin"</code>）</p>
+</li>
+<li>
+<p>打开命令行，输入 <code>gcc --version</code>，如果能看到版本信息，说明安装成功</p>
+</li>
 </ul>
 ]]></content:encoded>
     </item>
@@ -418,6 +428,7 @@ Reference: <a href="https://xmake.io/#/zh-cn/plugin/more_plugins?id=vscode-%e6%8
 <p><a href="https://code.visualstudio.com/Download" target="_blank" rel="noopener noreferrer">Download Visual Studio Code - Mac, Linux, Windows</a></p>
 </blockquote>
 <p>点此前往VS Code官网，在下载中心，选择适合你的版本下载安装。这里推荐的是使用 <code>Installer</code> 而不是 <code>User Installer</code>，避免将VS Code安装在用户目录下。</p>
+<p>Vs Code安装包打包使用的是<code>Inno Setup</code>，支持静默参数<code>/VERYSILENT /SUPPRESSMSGBOXES /NORESTART /SP-</code></p>
 </li>
 <li>
 <p>使用Windows包管理器<a href="https://learn.microsoft.com/en-us/windows/package-manager/winget/" target="_blank" rel="noopener noreferrer">WinGet</a>安装</p>
