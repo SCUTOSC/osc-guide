@@ -6,14 +6,79 @@
     <link>https://guide.scutosc.cn/</link>
     <description>Get started with OSC</description>
     <language>zh-CN</language>
-    <pubDate>Fri, 04 Oct 2024 04:43:26 GMT</pubDate>
-    <lastBuildDate>Fri, 04 Oct 2024 04:43:26 GMT</lastBuildDate>
+    <pubDate>Fri, 04 Oct 2024 05:46:34 GMT</pubDate>
+    <lastBuildDate>Fri, 04 Oct 2024 05:46:34 GMT</lastBuildDate>
     <generator>@vuepress/plugin-feed</generator>
     <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
     <category>Advance</category>
     <category>guide</category>
     <category>使用指南</category>
     <category>指南</category>
+    <item>
+      <title>教学资源</title>
+      <link>https://guide.scutosc.cn/guide/tutorial/</link>
+      <guid>https://guide.scutosc.cn/guide/tutorial/</guid>
+      <source url="https://guide.scutosc.cn/rss.xml">教学资源</source>
+      <description>这里存放一些教学资源与简介。</description>
+      <pubDate>Fri, 04 Oct 2024 05:45:50 GMT</pubDate>
+      <content:encoded><![CDATA[<p>这里存放一些教学资源与简介。</p>
+]]></content:encoded>
+    </item>
+    <item>
+      <title>C++ 专题</title>
+      <link>https://guide.scutosc.cn/guide/tutorial/cpp/</link>
+      <guid>https://guide.scutosc.cn/guide/tutorial/cpp/</guid>
+      <source url="https://guide.scutosc.cn/rss.xml">C++ 专题</source>
+      <pubDate>Fri, 04 Oct 2024 05:45:50 GMT</pubDate>
+    </item>
+    <item>
+      <title>mq白的教程</title>
+      <link>https://guide.scutosc.cn/guide/tutorial/cpp/mq-b.html</link>
+      <guid>https://guide.scutosc.cn/guide/tutorial/cpp/mq-b.html</guid>
+      <source url="https://guide.scutosc.cn/rss.xml">mq白的教程</source>
+      <description>mq白出了很多关于现代C++的教程，对于国内老朽的C++教学模式来说，是很好的补充。 搬运者注： 这里仅作教程文档推荐，未对教程视频的内容进行审核，如有问题请联系原作者。 mq白 个人账号下也有很多独立的技巧与 C++日经 ，对C++感兴趣的同学也可以关注一下。 教程列表 现代C++模板教程 《现代C++模板教程》现已发布，视频收费，教案开源免费。 b...</description>
+      <pubDate>Fri, 04 Oct 2024 05:45:50 GMT</pubDate>
+      <content:encoded><![CDATA[<p>mq白出了很多关于现代C++的教程，对于国内老朽的C++教学模式来说，是很好的补充。</p>
+<div class="hint-container warning">
+<p class="hint-container-title">搬运者注：</p>
+<p>这里仅作教程文档推荐，未对教程视频的内容进行审核，如有问题请联系原作者。</p>
+</div>
+<p>mq白 个人账号下也有很多独立的技巧与 <em>C++日经</em> ，对C++感兴趣的同学也可以关注一下。</p>
+<ul>
+<li>
+</li>
+<li>
+</li>
+<li>
+</li>
+<li>
+</li>
+</ul>
+<h2>教程列表</h2>
+<h3>现代C++模板教程</h3>
+<p>《现代C++模板教程》现已发布，视频收费，教案开源免费。</p>
+<p>b站视频购买链接：<a href="https://b23.tv/Ppq4Bsw" target="_blank" rel="noopener noreferrer">https://b23.tv/Ppq4Bsw</a></p>
+<p>教案可访问GitHub、Gitee、GitHub Pages 部署的网站（推荐）、Gitbook进行阅读，开源且长期更新，如下：</p>
+<ul>
+<li><a href="https://github.com/Mq-b/Modern-Cpp-templates-tutorial" target="_blank" rel="noopener noreferrer">https://github.com/Mq-b/Modern-Cpp-templates-tutorial</a></li>
+<li><a href="https://gitee.com/Mq-b/Modern-Cpp-templates-tutorial" target="_blank" rel="noopener noreferrer">https://gitee.com/Mq-b/Modern-Cpp-templates-tutorial</a></li>
+<li><a href="https://mq-b.github.io/Modern-Cpp-templates-tutorial/" target="_blank" rel="noopener noreferrer">https://mq-b.github.io/Modern-Cpp-templates-tutorial/</a></li>
+</ul>
+<h3>现代C++并发编程教程</h3>
+<p>正在更新中：</p>
+<ul>
+<li><a href="https://github.com/Mq-b/ModernCpp-ConcurrentProgramming-Tutorial" target="_blank" rel="noopener noreferrer">https://github.com/Mq-b/ModernCpp-ConcurrentProgramming-Tutorial</a></li>
+<li><a href="https://mq-b.github.io/ModernCpp-ConcurrentProgramming-Tutorial/" target="_blank" rel="noopener noreferrer">https://mq-b.github.io/ModernCpp-ConcurrentProgramming-Tutorial/</a></li>
+</ul>
+<h3>loser homework：</h3>
+<blockquote>
+<p>搬运者注：loser homework是一个很有意思的项目，是一个C++的练习项目，里面有很多有趣的题目，可以帮助你提高C++编程能力。不过，大概只有我们loser才会专注于C++这些乱七八糟的东西吧。</p>
+</blockquote>
+<ul>
+<li><a href="https://github.com/Mq-b/Loser-HomeWork" target="_blank" rel="noopener noreferrer">https://github.com/Mq-b/Loser-HomeWork</a></li>
+</ul>
+]]></content:encoded>
+    </item>
     <item>
       <title>YKT Helper</title>
       <link>https://guide.scutosc.cn/guide/tools/using%20yuketang_helper.html</link>
@@ -53,7 +118,7 @@
 <figure><img src="https://raw.githubusercontent.com/xiaolin2004/PicForMD/main/20240928220621.png" alt="image.png" tabindex="0" loading="lazy"><figcaption>image.png</figcaption></figure>
 <ol start="6">
 <li>
-<p>注意，请点击与官网链接相同的标签，其他标签中无法找到稍后配置刷课代码的信息，本教程使用链接 https://scut.yuketang.cn/</p>
+<p>注意，请点击与官网链接相同的标签，其他标签中无法找到稍后配置刷课代码的信息，本教程使用链接 <a href="https://scut.yuketang.cn/" target="_blank" rel="noopener noreferrer">https://scut.yuketang.cn/</a></p>
 </li>
 <li>
 <p>图中Key对应的Value are all you need</p>
@@ -179,16 +244,16 @@
       <source url="https://guide.scutosc.cn/rss.xml">代码分享工具</source>
       <description>carbon.now.sh carbon.now.sh 是一个代码分享工具，可以将代码转换为图片，支持多种主题、字体、背景等设置。 carbon.now.shcarbon.now.sh gist.github.com gist.github.com 是 GitHub 提供的代码片段分享服务，可以将代码片段保存为 Gist，支持多种语言、Markdown...</description>
       <pubDate>Wed, 18 Sep 2024 16:50:31 GMT</pubDate>
-      <content:encoded><![CDATA[<h2>carbon.now.sh</h2>
+      <content:encoded><![CDATA[<h2><a class="header-anchor" href="#carbon-now-sh"><span></span></a><a href="http://carbon.now.sh" target="_blank" rel="noopener noreferrer">carbon.now.sh</a></h2>
 <p><a href="https://carbon.now.sh" target="_blank" rel="noopener noreferrer">carbon.now.sh</a> 是一个代码分享工具，可以将代码转换为图片，支持多种主题、字体、背景等设置。</p>
-<figure><img src="https://user-images.githubusercontent.com/8397708/63456416-b27d1a80-c403-11e9-9572-105b089be885.png" alt="carbon.now.sh" tabindex="0" loading="lazy"><figcaption>carbon.now.sh</figcaption></figure>
-<h2>gist.github.com</h2>
+<figure><img src="https://user-images.githubusercontent.com/8397708/63456416-b27d1a80-c403-11e9-9572-105b089be885.png" alt="carbon.now.sh" tabindex="0" loading="lazy"><figcaption><a href="http://carbon.now.sh" target="_blank" rel="noopener noreferrer">carbon.now.sh</a></figcaption></figure>
+<h2><a class="header-anchor" href="#gist-github-com"><span></span></a><a href="http://gist.github.com" target="_blank" rel="noopener noreferrer">gist.github.com</a></h2>
 <p><a href="https://gist.github.com" target="_blank" rel="noopener noreferrer">gist.github.com</a> 是 GitHub 提供的代码片段分享服务，可以将代码片段保存为 Gist，支持多种语言、Markdown 渲染等功能。</p>
-<h2>paste.ofcode.org</h2>
+<h2><a class="header-anchor" href="#paste-ofcode-org"><span></span></a><a href="http://paste.ofcode.org" target="_blank" rel="noopener noreferrer">paste.ofcode.org</a></h2>
 <p><a href="https://paste.ofcode.org" target="_blank" rel="noopener noreferrer">paste.ofcode.org</a></p>
-<h2>compiler-explorer.com</h2>
+<h2><a class="header-anchor" href="#compiler-explorer-com"><span></span></a><a href="http://compiler-explorer.com" target="_blank" rel="noopener noreferrer">compiler-explorer.com</a></h2>
 <p><a href="https://compiler-explorer.com" target="_blank" rel="noopener noreferrer">Code Explorer</a> from <a href="https://godbolt.org" target="_blank" rel="noopener noreferrer">godbolt</a>，是一个在线编译器，可以将 C/C++ 代码转换为汇编代码，查看结果，支持多种编译器、优化等设置，还能生成链接分享。</p>
-<figure><img src="https://github.com/compiler-explorer/compiler-explorer/raw/main/docs/images/brief_overview.png" alt="compiler-explorer.com" tabindex="0" loading="lazy"><figcaption>compiler-explorer.com</figcaption></figure>
+<figure><img src="https://github.com/compiler-explorer/compiler-explorer/raw/main/docs/images/brief_overview.png" alt="compiler-explorer.com" tabindex="0" loading="lazy"><figcaption><a href="http://compiler-explorer.com" target="_blank" rel="noopener noreferrer">compiler-explorer.com</a></figcaption></figure>
 ]]></content:encoded>
       <enclosure url="https://user-images.githubusercontent.com/8397708/63456416-b27d1a80-c403-11e9-9572-105b089be885.png" type="image/png"/>
     </item>
@@ -573,8 +638,8 @@ MSYS2可以接受CMD传递的参数，如<code>msys2.exe help</code></p>
 <div class="line-numbers" aria-hidden="true" style="counter-reset:line-number 0"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><p>也就是上面的 <code>"compileCommands": "/path/to/compile_commands.json"</code> 配置项。</p>
 <p>关于如果打开这个配置文件，以及更多的配置说明，见：</p>
 <ul>
-<li>https://code.visualstudio.com/docs/cpp/configure-intellisense-crosscompilation</li>
-<li>https://code.visualstudio.com/docs/cpp/c-cpp-properties-schema-reference</li>
+<li><a href="https://code.visualstudio.com/docs/cpp/configure-intellisense-crosscompilation" target="_blank" rel="noopener noreferrer">https://code.visualstudio.com/docs/cpp/configure-intellisense-crosscompilation</a></li>
+<li><a href="https://code.visualstudio.com/docs/cpp/c-cpp-properties-schema-reference" target="_blank" rel="noopener noreferrer">https://code.visualstudio.com/docs/cpp/c-cpp-properties-schema-reference</a></li>
 </ul>
 <p>当然，理论上可以做到 xmake-vscode 插件自动关联设置这个文件，但是考虑到用户不一定使用 cpptools，有可能还会使用 clangd。</p>
 <p>因此，默认自动配置并不是很好，而且作者暂时也没时间精力去改进它。</p>
