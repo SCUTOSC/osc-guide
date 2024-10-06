@@ -6,14 +6,299 @@
     <link>https://guide.scutosc.cn/</link>
     <description>Get started with OSC</description>
     <language>zh-CN</language>
-    <pubDate>Fri, 04 Oct 2024 05:46:34 GMT</pubDate>
-    <lastBuildDate>Fri, 04 Oct 2024 05:46:34 GMT</lastBuildDate>
+    <pubDate>Sun, 06 Oct 2024 14:11:22 GMT</pubDate>
+    <lastBuildDate>Sun, 06 Oct 2024 14:11:22 GMT</lastBuildDate>
     <generator>@vuepress/plugin-feed</generator>
     <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
     <category>Advance</category>
     <category>guide</category>
     <category>使用指南</category>
     <category>指南</category>
+    <item>
+      <title>1 - &amp;quot;Hello World!&amp;quot;</title>
+      <link>https://guide.scutosc.cn/guide/tutorial/cpp/book-read/1-helloworld.html</link>
+      <guid>https://guide.scutosc.cn/guide/tutorial/cpp/book-read/1-helloworld.html</guid>
+      <source url="https://guide.scutosc.cn/rss.xml">1 - &amp;quot;Hello World!&amp;quot;</source>
+      <description>基本程序概念 红 P3-9 / OCR P23 蓝 P28-41 读完本小结，你应该能够 感性了解C++程序的基本结构 了解 预处理指令 初识 #include &amp;lt;&amp;gt; 与 #include &amp;quot;&amp;quot; 初识 #define 了解 注释 的作用 了解 main函数 的作用 初识 命名空间 初识 输入输出流 也就是 #include &amp;lt;iostream&amp;gt; 中的 ...</description>
+      <pubDate>Sun, 06 Oct 2024 14:10:41 GMT</pubDate>
+      <content:encoded><![CDATA[<h2>基本程序概念</h2>
+<ul>
+<li>红 P3-9 / OCR P23</li>
+<li>蓝 P28-41</li>
+</ul>
+<div class="hint-container tip">
+<p class="hint-container-title">读完本小结，你应该能够</p>
+</div>
+<ul>
+<li>
+<p>感性了解C++程序的基本结构</p>
+</li>
+<li>
+<p>了解 <a href="https://zh.cppreference.com/w/cpp/preprocessor" target="_blank" rel="noopener noreferrer"><code>预处理指令</code></a></p>
+<ul>
+<li>初识 <code>#include &lt;&gt;</code> 与 <code>#include ""</code></li>
+<li>初识 <code>#define</code></li>
+</ul>
+</li>
+<li>
+<p>了解 <a href="https://zh.cppreference.com/w/cpp/comment" target="_blank" rel="noopener noreferrer"><code>注释</code></a> 的作用</p>
+</li>
+<li>
+<p>了解 <a href="https://zh.cppreference.com/w/cpp/language/main_function" target="_blank" rel="noopener noreferrer"><code>main函数</code></a> 的作用</p>
+</li>
+<li>
+<p>初识 <a href="https://zh.cppreference.com/w/cpp/language/namespace" target="_blank" rel="noopener noreferrer"><code>命名空间</code></a></p>
+</li>
+<li>
+<p>初识 <a href="https://zh.cppreference.com/w/cpp/io" target="_blank" rel="noopener noreferrer"><code>输入输出流</code></a> 也就是</p>
+<ul>
+<li><code>#include &lt;iostream&gt;</code> 中的 <a href="https://zh.cppreference.com/w/cpp/header/iostream" target="_blank" rel="noopener noreferrer"><code>iostream</code></a> 头文件</li>
+<li><code>std::cout</code></li>
+<li><code>std::cin</code></li>
+<li><code>&lt;&lt;</code> 和 <code>&gt;&gt;</code>，实际上是运算符</li>
+</ul>
+<blockquote>
+<p>更推荐参考：1.1.1 5.输入输出流 C++20高级编程（第五版）P6 / OCR P26</p>
+</blockquote>
+</li>
+<li>
+<p>了解 <a href="https://zh.cppreference.com/w/cpp/language/statements" target="_blank" rel="noopener noreferrer"><code>控制流</code></a></p>
+</li>
+</ul>
+<div class="hint-container tip">
+<p class="hint-container-title">结合两本书，你还能了解到</p>
+</div>
+<ul>
+<li>字符串里别扭的 <a href="https://zh.cppreference.com/w/cpp/language/escape" target="_blank" rel="noopener noreferrer"><code>转义字符</code></a> 如 <code>\n</code> <code>\t</code> 等</li>
+<li>认识基础<a href="https://zh.cppreference.com/w/cpp/language/operators" target="_blank" rel="noopener noreferrer"><code>运算符</code></a>，如 <code>+</code> <code>-</code> <code>*</code> <code>/</code> <code>%</code> <code>=</code> <code>==</code> <code>!=</code> <code>&gt;</code> <code>&lt;</code> <code>&gt;=</code> <code>&lt;=</code></li>
+<li>一些奇怪的名词，比如
+<ul>
+<li><a href="https://zh.cppreference.com/w/cpp/language/functions" target="_blank" rel="noopener noreferrer"><code>函数</code></a></li>
+<li><a href="https://zh.cppreference.com/w/cpp/language/expressions#.E5.AD.97.E9.9D.A2.E9.87.8F" target="_blank" rel="noopener noreferrer"><code>字面量</code></a></li>
+<li><a href="https://zh.cppreference.com/w/cpp/language/initialization" target="_blank" rel="noopener noreferrer"><code>初始化</code></a></li>
+</ul>
+</li>
+</ul>
+<div class="hint-container tip">
+<p class="hint-container-title">以下内容会在后一节详细讲解</p>
+</div>
+<ul>
+<li><code>变量</code>, 准确来说是 <a href="https://zh.cppreference.com/w/cpp/language/identifiers" target="_blank" rel="noopener noreferrer"><code>标识符</code></a></li>
+<li><a href="https://zh.cppreference.com/w/cpp/language/types" target="_blank" rel="noopener noreferrer"><code>基本类型</code></a>，后面还会学到 <a href="https://zh.cppreference.com/w/cpp/language/classes" target="_blank" rel="noopener noreferrer"><code>类</code></a></li>
+<li><a href="https://zh.cppreference.com/w/cpp/language/type" target="_blank" rel="noopener noreferrer"><code>类型</code></a>，实际上还会有另外一个名词 <a href="https://zh.cppreference.com/w/cpp/language/value_category" target="_blank" rel="noopener noreferrer"><code>值类别</code></a>，这俩特别容易搞混</li>
+<li><a href="https://zh.cppreference.com/w/cpp/language/declarations" target="_blank" rel="noopener noreferrer"><code>声明</code></a> - <code>标识符声明</code> 又名 <code>简单声明</code></li>
+</ul>
+<h2>一系列帮助建立直观认识的例子</h2>
+<p><strong>hello world</strong></p>
+<div class="language-cpp line-numbers-mode" data-highlighter="shiki" data-ext="cpp" data-title="cpp" style="--shiki-light:#383A42;--shiki-dark:#abb2bf;--shiki-light-bg:#FAFAFA;--shiki-dark-bg:#282c34"><pre class="shiki shiki-themes one-light one-dark-pro vp-code"><code><span class="line"><span style="--shiki-light:#A626A4;--shiki-dark:#C678DD">#include</span><span style="--shiki-light:#50A14F;--shiki-dark:#98C379"> &lt;iostream&gt;</span></span>
+<span class="line"><span style="--shiki-light:#A626A4;--shiki-dark:#C678DD">int</span><span style="--shiki-light:#4078F2;--shiki-dark:#61AFEF"> main</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">() {</span></span>
+<span class="line"><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">    std::cout </span><span style="--shiki-light:#A626A4;--shiki-dark:#C678DD">&lt;&lt;</span><span style="--shiki-light:#50A14F;--shiki-dark:#98C379"> "Hello, World!</span><span style="--shiki-light:#0184BC;--shiki-dark:#56B6C2">\n</span><span style="--shiki-light:#50A14F;--shiki-dark:#98C379">"</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">;</span></span>
+<span class="line"><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">}</span></span></code></pre>
+<div class="line-numbers" aria-hidden="true" style="counter-reset:line-number 0"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><p><strong>一个简单的加法</strong></p>
+<div class="language-cpp line-numbers-mode" data-highlighter="shiki" data-ext="cpp" data-title="cpp" style="--shiki-light:#383A42;--shiki-dark:#abb2bf;--shiki-light-bg:#FAFAFA;--shiki-dark-bg:#282c34"><pre class="shiki shiki-themes one-light one-dark-pro vp-code"><code><span class="line"><span style="--shiki-light:#A626A4;--shiki-dark:#C678DD">#include</span><span style="--shiki-light:#50A14F;--shiki-dark:#98C379"> &lt;iostream&gt;</span></span>
+<span class="line"><span style="--shiki-light:#A626A4;--shiki-dark:#C678DD">int</span><span style="--shiki-light:#4078F2;--shiki-dark:#61AFEF"> main</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">() {</span></span>
+<span class="line"><span style="--shiki-light:#A626A4;--shiki-dark:#C678DD">    int</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF"> a </span><span style="--shiki-light:#A626A4;--shiki-dark:#C678DD">=</span><span style="--shiki-light:#986801;--shiki-dark:#D19A66"> 1</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">;</span></span>
+<span class="line"><span style="--shiki-light:#A626A4;--shiki-dark:#C678DD">    int</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF"> b </span><span style="--shiki-light:#A626A4;--shiki-dark:#C678DD">=</span><span style="--shiki-light:#986801;--shiki-dark:#D19A66"> 2</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">;</span></span>
+<span class="line"><span style="--shiki-light:#A626A4;--shiki-dark:#C678DD">    int</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF"> c </span><span style="--shiki-light:#A626A4;--shiki-dark:#C678DD">=</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF"> a </span><span style="--shiki-light:#A626A4;--shiki-dark:#C678DD">+</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF"> b;</span></span>
+<span class="line"><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">    std::cout </span><span style="--shiki-light:#A626A4;--shiki-dark:#C678DD">&lt;&lt;</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF"> c </span><span style="--shiki-light:#A626A4;--shiki-dark:#C678DD">&lt;&lt;</span><span style="--shiki-light:#50A14F;--shiki-dark:#98C379"> '</span><span style="--shiki-light:#0184BC;--shiki-dark:#56B6C2">\n</span><span style="--shiki-light:#50A14F;--shiki-dark:#98C379">'</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">;</span></span>
+<span class="line"><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">    std::cout </span><span style="--shiki-light:#A626A4;--shiki-dark:#C678DD">&lt;&lt;</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF"> a </span><span style="--shiki-light:#A626A4;--shiki-dark:#C678DD">+</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF"> b </span><span style="--shiki-light:#A626A4;--shiki-dark:#C678DD">&lt;&lt;</span><span style="--shiki-light:#50A14F;--shiki-dark:#98C379"> '</span><span style="--shiki-light:#0184BC;--shiki-dark:#56B6C2">\n</span><span style="--shiki-light:#50A14F;--shiki-dark:#98C379">'</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">;</span></span>
+<span class="line"><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">}</span></span></code></pre>
+<div class="line-numbers" aria-hidden="true" style="counter-reset:line-number 0"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><p><strong>一个简单的判断</strong></p>
+<div class="language-cpp line-numbers-mode" data-highlighter="shiki" data-ext="cpp" data-title="cpp" style="--shiki-light:#383A42;--shiki-dark:#abb2bf;--shiki-light-bg:#FAFAFA;--shiki-dark-bg:#282c34"><pre class="shiki shiki-themes one-light one-dark-pro vp-code"><code><span class="line"><span style="--shiki-light:#A626A4;--shiki-dark:#C678DD">#include</span><span style="--shiki-light:#50A14F;--shiki-dark:#98C379"> &lt;iostream&gt;</span></span>
+<span class="line"><span style="--shiki-light:#A626A4;--shiki-dark:#C678DD">int</span><span style="--shiki-light:#4078F2;--shiki-dark:#61AFEF"> main</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">() {</span></span>
+<span class="line"><span style="--shiki-light:#A626A4;--shiki-dark:#C678DD">    int</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF"> a </span><span style="--shiki-light:#A626A4;--shiki-dark:#C678DD">=</span><span style="--shiki-light:#986801;--shiki-dark:#D19A66"> 1</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">;</span></span>
+<span class="line"><span style="--shiki-light:#A626A4;--shiki-dark:#C678DD">    int</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF"> b </span><span style="--shiki-light:#A626A4;--shiki-dark:#C678DD">=</span><span style="--shiki-light:#986801;--shiki-dark:#D19A66"> 2</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">;</span></span>
+<span class="line"><span style="--shiki-light:#A626A4;--shiki-dark:#C678DD">    if</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF"> (a </span><span style="--shiki-light:#A626A4;--shiki-dark:#C678DD">&gt;</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF"> b) {</span></span>
+<span class="line"><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">        std::cout </span><span style="--shiki-light:#A626A4;--shiki-dark:#C678DD">&lt;&lt;</span><span style="--shiki-light:#50A14F;--shiki-dark:#98C379"> "a &gt; b</span><span style="--shiki-light:#0184BC;--shiki-dark:#56B6C2">\n</span><span style="--shiki-light:#50A14F;--shiki-dark:#98C379">"</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">;</span></span>
+<span class="line"><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">    } </span><span style="--shiki-light:#A626A4;--shiki-dark:#C678DD">else</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF"> {</span></span>
+<span class="line"><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">        std::cout </span><span style="--shiki-light:#A626A4;--shiki-dark:#C678DD">&lt;&lt;</span><span style="--shiki-light:#50A14F;--shiki-dark:#98C379"> "a &lt;= b</span><span style="--shiki-light:#0184BC;--shiki-dark:#56B6C2">\n</span><span style="--shiki-light:#50A14F;--shiki-dark:#98C379">"</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">;</span></span>
+<span class="line"><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">    }</span></span>
+<span class="line"><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">}</span></span></code></pre>
+<div class="line-numbers" aria-hidden="true" style="counter-reset:line-number 0"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><p><strong>一个简单的循环</strong></p>
+<div class="language-cpp line-numbers-mode" data-highlighter="shiki" data-ext="cpp" data-title="cpp" style="--shiki-light:#383A42;--shiki-dark:#abb2bf;--shiki-light-bg:#FAFAFA;--shiki-dark-bg:#282c34"><pre class="shiki shiki-themes one-light one-dark-pro vp-code"><code><span class="line"><span style="--shiki-light:#A626A4;--shiki-dark:#C678DD">#include</span><span style="--shiki-light:#50A14F;--shiki-dark:#98C379"> &lt;iostream&gt;</span></span>
+<span class="line"><span style="--shiki-light:#A626A4;--shiki-dark:#C678DD">int</span><span style="--shiki-light:#4078F2;--shiki-dark:#61AFEF"> main</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">() {</span></span>
+<span class="line"><span style="--shiki-light:#A626A4;--shiki-dark:#C678DD">    for</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF"> (</span><span style="--shiki-light:#A626A4;--shiki-dark:#C678DD">int</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF"> i </span><span style="--shiki-light:#A626A4;--shiki-dark:#C678DD">=</span><span style="--shiki-light:#986801;--shiki-dark:#D19A66"> 0</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">; i </span><span style="--shiki-light:#A626A4;--shiki-dark:#C678DD">&lt;</span><span style="--shiki-light:#986801;--shiki-dark:#D19A66"> 10</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">; </span><span style="--shiki-light:#A626A4;--shiki-dark:#C678DD">++</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">i) {</span></span>
+<span class="line"><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">        std::cout </span><span style="--shiki-light:#A626A4;--shiki-dark:#C678DD">&lt;&lt;</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF"> i </span><span style="--shiki-light:#A626A4;--shiki-dark:#C678DD">&lt;&lt;</span><span style="--shiki-light:#50A14F;--shiki-dark:#98C379"> '</span><span style="--shiki-light:#0184BC;--shiki-dark:#56B6C2">\n</span><span style="--shiki-light:#50A14F;--shiki-dark:#98C379">'</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">;</span></span>
+<span class="line"><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">    }</span></span>
+<span class="line"><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">}</span></span></code></pre>
+<div class="line-numbers" aria-hidden="true" style="counter-reset:line-number 0"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><p><strong>一个简单的函数</strong></p>
+<div class="language-cpp line-numbers-mode" data-highlighter="shiki" data-ext="cpp" data-title="cpp" style="--shiki-light:#383A42;--shiki-dark:#abb2bf;--shiki-light-bg:#FAFAFA;--shiki-dark-bg:#282c34"><pre class="shiki shiki-themes one-light one-dark-pro vp-code"><code><span class="line"><span style="--shiki-light:#A626A4;--shiki-dark:#C678DD">#include</span><span style="--shiki-light:#50A14F;--shiki-dark:#98C379"> &lt;iostream&gt;</span></span>
+<span class="line"><span style="--shiki-light:#A626A4;--shiki-dark:#C678DD">int</span><span style="--shiki-light:#4078F2;--shiki-dark:#61AFEF"> add</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">(</span><span style="--shiki-light:#A626A4;--shiki-dark:#C678DD">int</span><span style="--shiki-light:#383A42;--shiki-dark:#E06C75;--shiki-light-font-style:inherit;--shiki-dark-font-style:italic"> a</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">, </span><span style="--shiki-light:#A626A4;--shiki-dark:#C678DD">int</span><span style="--shiki-light:#383A42;--shiki-dark:#E06C75;--shiki-light-font-style:inherit;--shiki-dark-font-style:italic"> b</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">) {</span></span>
+<span class="line"><span style="--shiki-light:#A626A4;--shiki-dark:#C678DD">    return</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF"> a </span><span style="--shiki-light:#A626A4;--shiki-dark:#C678DD">+</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF"> b;</span></span>
+<span class="line"><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">}</span></span>
+<span class="line"><span style="--shiki-light:#A626A4;--shiki-dark:#C678DD">int</span><span style="--shiki-light:#4078F2;--shiki-dark:#61AFEF"> main</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">() {</span></span>
+<span class="line"><span style="--shiki-light:#A626A4;--shiki-dark:#C678DD">    int</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF"> a </span><span style="--shiki-light:#A626A4;--shiki-dark:#C678DD">=</span><span style="--shiki-light:#986801;--shiki-dark:#D19A66"> 1</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">;</span></span>
+<span class="line"><span style="--shiki-light:#A626A4;--shiki-dark:#C678DD">    int</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF"> b </span><span style="--shiki-light:#A626A4;--shiki-dark:#C678DD">=</span><span style="--shiki-light:#986801;--shiki-dark:#D19A66"> 2</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">;</span></span>
+<span class="line"><span style="--shiki-light:#A626A4;--shiki-dark:#C678DD">    int</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF"> c </span><span style="--shiki-light:#A626A4;--shiki-dark:#C678DD">=</span><span style="--shiki-light:#4078F2;--shiki-dark:#61AFEF"> add</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">(a, b);</span></span>
+<span class="line"><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">    std::cout </span><span style="--shiki-light:#A626A4;--shiki-dark:#C678DD">&lt;&lt;</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF"> c </span><span style="--shiki-light:#A626A4;--shiki-dark:#C678DD">&lt;&lt;</span><span style="--shiki-light:#50A14F;--shiki-dark:#98C379"> '</span><span style="--shiki-light:#0184BC;--shiki-dark:#56B6C2">\n</span><span style="--shiki-light:#50A14F;--shiki-dark:#98C379">'</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">;</span></span>
+<span class="line"><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">}</span></span></code></pre>
+<div class="line-numbers" aria-hidden="true" style="counter-reset:line-number 0"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><p><strong>一个简单的命名空间</strong></p>
+<div class="language-cpp line-numbers-mode" data-highlighter="shiki" data-ext="cpp" data-title="cpp" style="--shiki-light:#383A42;--shiki-dark:#abb2bf;--shiki-light-bg:#FAFAFA;--shiki-dark-bg:#282c34"><pre class="shiki shiki-themes one-light one-dark-pro vp-code"><code><span class="line"><span style="--shiki-light:#A626A4;--shiki-dark:#C678DD">#include</span><span style="--shiki-light:#50A14F;--shiki-dark:#98C379"> &lt;iostream&gt;</span></span>
+<span class="line"><span style="--shiki-light:#A626A4;--shiki-dark:#C678DD">namespace</span><span style="--shiki-light:#383A42;--shiki-dark:#E5C07B"> A</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF"> {</span></span>
+<span class="line"><span style="--shiki-light:#A626A4;--shiki-dark:#C678DD">    int</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF"> a </span><span style="--shiki-light:#A626A4;--shiki-dark:#C678DD">=</span><span style="--shiki-light:#986801;--shiki-dark:#D19A66"> 1</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">;</span></span>
+<span class="line"><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">}</span></span>
+<span class="line"><span style="--shiki-light:#A626A4;--shiki-dark:#C678DD">namespace</span><span style="--shiki-light:#383A42;--shiki-dark:#E5C07B"> B</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF"> {</span></span>
+<span class="line"><span style="--shiki-light:#A626A4;--shiki-dark:#C678DD">    int</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF"> a </span><span style="--shiki-light:#A626A4;--shiki-dark:#C678DD">=</span><span style="--shiki-light:#986801;--shiki-dark:#D19A66"> 2</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">;</span></span>
+<span class="line"><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">}</span></span>
+<span class="line"><span style="--shiki-light:#A626A4;--shiki-dark:#C678DD">int</span><span style="--shiki-light:#4078F2;--shiki-dark:#61AFEF"> main</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">() {</span></span>
+<span class="line"><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">    std::cout </span><span style="--shiki-light:#A626A4;--shiki-dark:#C678DD">&lt;&lt;</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF"> A::a </span><span style="--shiki-light:#A626A4;--shiki-dark:#C678DD">&lt;&lt;</span><span style="--shiki-light:#50A14F;--shiki-dark:#98C379"> '</span><span style="--shiki-light:#0184BC;--shiki-dark:#56B6C2">\n</span><span style="--shiki-light:#50A14F;--shiki-dark:#98C379">'</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">;</span></span>
+<span class="line"><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">    std::cout </span><span style="--shiki-light:#A626A4;--shiki-dark:#C678DD">&lt;&lt;</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF"> B::a </span><span style="--shiki-light:#A626A4;--shiki-dark:#C678DD">&lt;&lt;</span><span style="--shiki-light:#50A14F;--shiki-dark:#98C379"> '</span><span style="--shiki-light:#0184BC;--shiki-dark:#56B6C2">\n</span><span style="--shiki-light:#50A14F;--shiki-dark:#98C379">'</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">;</span></span>
+<span class="line"><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">}</span></span></code></pre>
+<div class="line-numbers" aria-hidden="true" style="counter-reset:line-number 0"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><h2>使用 Compiler Explorer</h2>
+<ul>
+<li><a href="https://godbolt.org/" target="_blank" rel="noopener noreferrer">https://godbolt.org/</a></li>
+<li><a href="https://compiler-explorer.com/" target="_blank" rel="noopener noreferrer">https://compiler-explorer.com/</a></li>
+</ul>
+<div class="hint-container tip">
+<p class="hint-container-title">提示</p>
+<p>Compiler Explorer 是一个在线的编译器，可以帮助你快速查看代码的编译结果。</p>
+<p>不过我目前没有精力一个一个敲出来生成短链给你们来尝试，你们可以自己打开，然后把上面的代码粘贴进去，
+看看编译结果，以及有空的话，生成短链，粘贴到文章中，方便大家查看。</p>
+</div>
+<div class="hint-container warning">
+<p class="hint-container-title">注意</p>
+<p>如果粘贴后只有汇编结果没有输出结果，可以如图勾上 Execute the code 并点击/拖拽下方 Output：</p>
+</div>
+<figure><figcaption>选中 Execute the code</figcaption></figure>
+<figure><figcaption>点击 或 拖拽 Output</figcaption></figure>
+]]></content:encoded>
+    </item>
+    <item>
+      <title>2 - 各种变量一样的东西</title>
+      <link>https://guide.scutosc.cn/guide/tutorial/cpp/book-read/2-variable-like.html</link>
+      <guid>https://guide.scutosc.cn/guide/tutorial/cpp/book-read/2-variable-like.html</guid>
+      <source url="https://guide.scutosc.cn/rss.xml">2 - 各种变量一样的东西</source>
+      <description>注意 不完整，待补充 基本类型 与 标识符 参考 红 P9 / OCR P29 蓝 P32 关键名词 基本类型 类型 标识符 C风格数组 红 1.1.14 P26 / OCR P46 类 Class 与 结构体 Struct 事实上在编写 类 之前，我更推荐先使用一下 标准库 提供的 类： std::array 与 std::vector 红 1.1....</description>
+      <pubDate>Sun, 06 Oct 2024 14:10:41 GMT</pubDate>
+      <content:encoded><![CDATA[<div class="hint-container warning">
+<p class="hint-container-title">注意</p>
+<p>不完整，待补充</p>
+</div>
+<h2>基本类型 与 标识符</h2>
+<p>参考</p>
+<ul>
+<li>红 P9 / OCR P29</li>
+<li>蓝 P32</li>
+</ul>
+<p><strong>关键名词</strong></p>
+<ul>
+<li><a href="https://zh.cppreference.com/w/cpp/language/types" target="_blank" rel="noopener noreferrer"><code>基本类型</code></a></li>
+<li><a href="https://zh.cppreference.com/w/cpp/language/type" target="_blank" rel="noopener noreferrer"><code>类型</code></a></li>
+<li><a href="https://zh.cppreference.com/w/cpp/language/identifiers" target="_blank" rel="noopener noreferrer"><code>标识符</code></a></li>
+</ul>
+<p><strong>C风格数组</strong></p>
+<ul>
+<li>红 1.1.14 P26 / OCR P46</li>
+</ul>
+<h2>类 Class 与 结构体 Struct</h2>
+<p>事实上在编写 <a href="https://zh.cppreference.com/w/cpp/language/classes" target="_blank" rel="noopener noreferrer"><code>类</code></a> 之前，我更推荐先使用一下 标准库 提供的 类：</p>
+<ul>
+<li>std::array 与 std::vector
+<ul>
+<li>红 1.1.15 P27 / OCR P47</li>
+</ul>
+</li>
+</ul>
+<blockquote>
+<p><a href="https://compiler-explorer.com/z/Menne4vEa" target="_blank" rel="noopener noreferrer">https://compiler-explorer.com/z/Menne4vEa</a></p>
+</blockquote>
+<div class="language-cpp line-numbers-mode" data-highlighter="shiki" data-ext="cpp" data-title="cpp" style="--shiki-light:#383A42;--shiki-dark:#abb2bf;--shiki-light-bg:#FAFAFA;--shiki-dark-bg:#282c34"><pre class="shiki shiki-themes one-light one-dark-pro vp-code"><code><span class="line"><span style="--shiki-light:#A626A4;--shiki-dark:#C678DD">#include</span><span style="--shiki-light:#50A14F;--shiki-dark:#98C379"> &lt;vector&gt;</span></span>
+<span class="line"><span style="--shiki-light:#A626A4;--shiki-dark:#C678DD">#include</span><span style="--shiki-light:#50A14F;--shiki-dark:#98C379"> &lt;iostream&gt;</span></span>
+<span class="line"><span style="--shiki-light:#A626A4;--shiki-dark:#C678DD">using</span><span style="--shiki-light:#A626A4;--shiki-dark:#C678DD"> namespace</span><span style="--shiki-light:#383A42;--shiki-dark:#E5C07B"> std</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">;</span></span>
+<span class="line"><span style="--shiki-light:#A626A4;--shiki-dark:#C678DD">int</span><span style="--shiki-light:#4078F2;--shiki-dark:#61AFEF"> main</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">() {</span></span>
+<span class="line"><span style="--shiki-light:#A0A1A7;--shiki-dark:#7F848E;--shiki-light-font-style:italic;--shiki-dark-font-style:italic">    // Create a vector of Integers.</span></span>
+<span class="line"><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">    vector</span><span style="--shiki-light:#A626A4;--shiki-dark:#C678DD">&lt;int&gt;</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF"> myVector { </span><span style="--shiki-light:#986801;--shiki-dark:#D19A66">11</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">,</span><span style="--shiki-light:#986801;--shiki-dark:#D19A66">22</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF"> };</span></span>
+<span class="line"><span style="--shiki-light:#A0A1A7;--shiki-dark:#7F848E;--shiki-light-font-style:italic;--shiki-dark-font-style:italic">    // Add some more integers to the vector using push_back.</span></span>
+<span class="line"><span style="--shiki-light:#E45649;--shiki-dark:#E5C07B">    myVector</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">.</span><span style="--shiki-light:#4078F2;--shiki-dark:#61AFEF">push_back</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">(</span><span style="--shiki-light:#986801;--shiki-dark:#D19A66">33</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">);</span></span>
+<span class="line"><span style="--shiki-light:#E45649;--shiki-dark:#E5C07B">    myVector</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">.</span><span style="--shiki-light:#4078F2;--shiki-dark:#61AFEF">push_back</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">(</span><span style="--shiki-light:#986801;--shiki-dark:#D19A66">44</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">);</span></span>
+<span class="line"><span style="--shiki-light:#A0A1A7;--shiki-dark:#7F848E;--shiki-light-font-style:italic;--shiki-dark-font-style:italic">    // Access elements.</span></span>
+<span class="line"><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">    cout </span><span style="--shiki-light:#A626A4;--shiki-dark:#C678DD">&lt;&lt;</span><span style="--shiki-light:#50A14F;--shiki-dark:#98C379"> "1st element "</span><span style="--shiki-light:#A626A4;--shiki-dark:#C678DD"> &lt;&lt;</span><span style="--shiki-light:#E45649;--shiki-dark:#E5C07B"> myVector</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">[</span><span style="--shiki-light:#986801;--shiki-dark:#D19A66">0</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">] </span><span style="--shiki-light:#A626A4;--shiki-dark:#C678DD">&lt;&lt;</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF"> endl;</span></span>
+<span class="line"><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">}</span></span></code></pre>
+<div class="line-numbers" aria-hidden="true" style="counter-reset:line-number 0"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><p>类的编写与进阶</p>
+<ul>
+<li>蓝 第三章</li>
+<li>红 P61、135、197 / OCR P81、155、217</li>
+</ul>
+<blockquote>
+<p>在 C++20 高级编程（第五版）中，由于使用了 module 的编写规范，所以对于类型/标识符
+等定义会带上 <code>export</code> 关键字，如果不启用 module，可以忽略 <code>export</code> 关键字。</p>
+</blockquote>
+<p><strong>关键名词</strong></p>
+<ul>
+<li><a href="https://zh.cppreference.com/w/cpp/language/classes" target="_blank" rel="noopener noreferrer"><code>类</code></a></li>
+<li><a href="https://zh.cppreference.com/w/cpp/language/object" target="_blank" rel="noopener noreferrer"><code>对象</code></a></li>
+<li><a href="https://zh.cppreference.com/w/cpp/language/struct" target="_blank" rel="noopener noreferrer"><code>结构体</code></a></li>
+</ul>
+<div class="hint-container warning">
+<p class="hint-container-title">关于C++可能缺少的一课</p>
+<p>以下内容可以跳过，因为可能涉及一系列关于 函数重载，类的复制、移动构造 等 进阶内容。</p>
+</div>
+<h2>联合体 Union</h2>
+<ul>
+<li><a href="https://zh.cppreference.com/w/cpp/language/union" target="_blank" rel="noopener noreferrer">联合体</a></li>
+</ul>
+<h2>类型推导</h2>
+<h2>值类别</h2>
+<ul>
+<li><a href="https://zh.cppreference.com/w/cpp/language/value_category" target="_blank" rel="noopener noreferrer"><code>值类别</code></a></li>
+</ul>
+<p>以函数重载来举例，请问下列程序输出什么？为什么会有这样的区别？</p>
+<blockquote>
+<p><a href="https://compiler-explorer.com/z/eGqPvTxMz" target="_blank" rel="noopener noreferrer">https://compiler-explorer.com/z/eGqPvTxMz</a></p>
+</blockquote>
+<div class="language-cpp line-numbers-mode" data-highlighter="shiki" data-ext="cpp" data-title="cpp" style="--shiki-light:#383A42;--shiki-dark:#abb2bf;--shiki-light-bg:#FAFAFA;--shiki-dark-bg:#282c34"><pre class="shiki shiki-themes one-light one-dark-pro vp-code"><code><span class="line"><span style="--shiki-light:#A626A4;--shiki-dark:#C678DD">#include</span><span style="--shiki-light:#50A14F;--shiki-dark:#98C379"> &lt;cstdio&gt;</span></span>
+<span class="line"><span style="--shiki-light:#A626A4;--shiki-dark:#C678DD">class</span><span style="--shiki-light:#C18401;--shiki-dark:#E5C07B"> X</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF"> {};</span></span>
+<span class="line"></span>
+<span class="line"><span style="--shiki-light:#A626A4;--shiki-dark:#C678DD">void</span><span style="--shiki-light:#4078F2;--shiki-dark:#61AFEF"> print</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">(</span><span style="--shiki-light:#C18401;--shiki-dark:#E5C07B">X</span><span style="--shiki-light:#A626A4;--shiki-dark:#C678DD">&amp;</span><span style="--shiki-light:#383A42;--shiki-dark:#E06C75;--shiki-light-font-style:inherit;--shiki-dark-font-style:italic"> x</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">) {</span></span>
+<span class="line"><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">    std::</span><span style="--shiki-light:#4078F2;--shiki-dark:#61AFEF">puts</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">(</span><span style="--shiki-light:#50A14F;--shiki-dark:#98C379">"X&amp; x</span><span style="--shiki-light:#0184BC;--shiki-dark:#56B6C2">\n</span><span style="--shiki-light:#50A14F;--shiki-dark:#98C379">"</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">);</span></span>
+<span class="line"><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">}</span></span>
+<span class="line"></span>
+<span class="line"><span style="--shiki-light:#A626A4;--shiki-dark:#C678DD">void</span><span style="--shiki-light:#4078F2;--shiki-dark:#61AFEF"> print</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">(</span><span style="--shiki-light:#C18401;--shiki-dark:#E5C07B">X</span><span style="--shiki-light:#A626A4;--shiki-dark:#C678DD">&amp;&amp;</span><span style="--shiki-light:#383A42;--shiki-dark:#E06C75;--shiki-light-font-style:inherit;--shiki-dark-font-style:italic"> x</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">) {</span></span>
+<span class="line"><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">    std::</span><span style="--shiki-light:#4078F2;--shiki-dark:#61AFEF">puts</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">(</span><span style="--shiki-light:#50A14F;--shiki-dark:#98C379">"X&amp;&amp; x</span><span style="--shiki-light:#0184BC;--shiki-dark:#56B6C2">\n</span><span style="--shiki-light:#50A14F;--shiki-dark:#98C379">"</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">);</span></span>
+<span class="line"><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">}</span></span>
+<span class="line"></span>
+<span class="line"><span style="--shiki-light:#C18401;--shiki-dark:#E5C07B">X</span><span style="--shiki-light:#4078F2;--shiki-dark:#61AFEF"> getX</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">() {</span></span>
+<span class="line"><span style="--shiki-light:#A626A4;--shiki-dark:#C678DD">    return</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF"> X{};</span></span>
+<span class="line"><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">}</span></span>
+<span class="line"></span>
+<span class="line"><span style="--shiki-light:#A626A4;--shiki-dark:#C678DD">int</span><span style="--shiki-light:#4078F2;--shiki-dark:#61AFEF"> main</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">() {</span></span>
+<span class="line"><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">    X x;</span></span>
+<span class="line"><span style="--shiki-light:#4078F2;--shiki-dark:#61AFEF">    print</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">(x);</span></span>
+<span class="line"><span style="--shiki-light:#4078F2;--shiki-dark:#61AFEF">    print</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">(</span><span style="--shiki-light:#4078F2;--shiki-dark:#61AFEF">getX</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">());</span></span>
+<span class="line"><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">}</span></span></code></pre>
+<div class="line-numbers" aria-hidden="true" style="counter-reset:line-number 0"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><p>参考</p>
+<ul>
+<li>白 1.1 PDF P10</li>
+</ul>
+<h2>C++ 类型系统概览</h2>
+<figure><img src="https://upload.cppreference.com/mwiki/images/9/96/cpp_types.svg" alt="C++ 类型系统概览" tabindex="0" loading="lazy"><figcaption>C++ 类型系统概览</figcaption></figure>
+]]></content:encoded>
+      <enclosure url="https://upload.cppreference.com/mwiki/images/9/96/cpp_types.svg" type="image/svg+xml"/>
+    </item>
+    <item>
+      <title>书籍阅读与顺序推荐</title>
+      <link>https://guide.scutosc.cn/guide/tutorial/cpp/book-read/</link>
+      <guid>https://guide.scutosc.cn/guide/tutorial/cpp/book-read/</guid>
+      <source url="https://guide.scutosc.cn/rss.xml">书籍阅读与顺序推荐</source>
+      <description>本文仅供参考 仅代表个人学习经验。本文撰写者围绕“现代C++”，并秉持 *写的代码应该直接就能被人读懂 为第一原则，因此本教程也许不适合部分 ACM 竞赛选手等人群，请酌情参考。另一方面，出于对知识周延性的考虑，有时候可能会涉及重复的章节，以及对几本书的拆解与交叉引用。 提示 本文中会根据专有名词嵌入 cppreference 的链接，伴随着蓝色字体与...</description>
+      <pubDate>Sun, 06 Oct 2024 14:10:41 GMT</pubDate>
+      <content:encoded><![CDATA[<div class="hint-container warning">
+<p class="hint-container-title">本文仅供参考</p>
+<p>仅代表个人学习经验。本文撰写者围绕“现代C++”，并秉持 *<strong>写的代码应该直接就能被人读懂</strong> 为第一原则，因此本教程也许不适合部分 <code>ACM</code> 竞赛选手等人群，请酌情参考。另一方面，出于对知识周延性的考虑，有时候可能会涉及重复的章节，以及对几本书的拆解与交叉引用。</p>
+</div>
+<div class="hint-container tip">
+<p class="hint-container-title">提示</p>
+<p>本文中会根据专有名词嵌入 <a href="https://zh.cppreference.com/w/cpp" target="_blank" rel="noopener noreferrer"><code>cppreference</code></a> 的链接，伴随着蓝色字体与小箭头的超链接符号，方便读者查阅。如果你感兴趣，或者想要了解更多，欢迎点进去了解。不过，贪多嚼不烂，不能理解也无所谓，有时候cppreference也实在不讲人话。你只要记下有这个名词也无妨，只是你需要记得有这个东西。</p>
+<p><strong>cppreference</strong> 网址：<a href="https://zh.cppreference.com" target="_blank" rel="noopener noreferrer">https://zh.cppreference.com</a></p>
+</div>
+<h2>书籍推荐</h2>
+<ul>
+<li>C++20高级编程（第五版），后面使用 红皮书 表示</li>
+<li>C++20高级编程（罗能），后面使用 白皮书 表示</li>
+<li>C++大学教程 第9版，后面使用 蓝皮书 表示</li>
+</ul>
+]]></content:encoded>
+    </item>
     <item>
       <title>教学资源</title>
       <link>https://guide.scutosc.cn/guide/tutorial/</link>
