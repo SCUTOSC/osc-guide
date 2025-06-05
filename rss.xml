@@ -6,8 +6,8 @@
     <link>https://guide.scutosc.cn/</link>
     <description>Get started with OSC</description>
     <language>zh-CN</language>
-    <pubDate>Thu, 05 Jun 2025 06:29:40 GMT</pubDate>
-    <lastBuildDate>Thu, 05 Jun 2025 06:29:40 GMT</lastBuildDate>
+    <pubDate>Thu, 05 Jun 2025 06:41:25 GMT</pubDate>
+    <lastBuildDate>Thu, 05 Jun 2025 06:41:25 GMT</lastBuildDate>
     <generator>@vuepress/plugin-feed</generator>
     <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
     <category>Advance</category>
@@ -1276,32 +1276,6 @@ MSYS2可以接受CMD传递的参数，如<code>msys2.exe help</code></p>
       <pubDate>Wed, 18 Sep 2024 13:08:28 GMT</pubDate>
     </item>
     <item>
-      <title>Bar 功能</title>
-      <link>https://guide.scutosc.cn/demo/bar/</link>
-      <guid>https://guide.scutosc.cn/demo/bar/</guid>
-      <source url="https://guide.scutosc.cn/rss.xml">Bar 功能</source>
-      <description>介绍 我们支持 bar 功能，... 详情 ...</description>
-      <pubDate>Wed, 18 Sep 2024 13:08:28 GMT</pubDate>
-      <content:encoded><![CDATA[<h2>介绍</h2>
-<p>我们支持 bar 功能，...</p>
-<h2>详情</h2>
-<ul>
-<li><a href="/demo/bar/baz.html" target="_blank">baz</a></li>
-<li>...</li>
-</ul>
-]]></content:encoded>
-    </item>
-    <item>
-      <title>Baz</title>
-      <link>https://guide.scutosc.cn/demo/bar/baz.html</link>
-      <guid>https://guide.scutosc.cn/demo/bar/baz.html</guid>
-      <source url="https://guide.scutosc.cn/rss.xml">Baz</source>
-      <description>功能详情...</description>
-      <pubDate>Wed, 18 Sep 2024 13:08:28 GMT</pubDate>
-      <content:encoded><![CDATA[<p>功能详情...</p>
-]]></content:encoded>
-    </item>
-    <item>
       <title>Foo 功能</title>
       <link>https://guide.scutosc.cn/demo/foo/</link>
       <guid>https://guide.scutosc.cn/demo/foo/</guid>
@@ -1322,6 +1296,32 @@ MSYS2可以接受CMD传递的参数，如<code>msys2.exe help</code></p>
       <link>https://guide.scutosc.cn/demo/foo/ray.html</link>
       <guid>https://guide.scutosc.cn/demo/foo/ray.html</guid>
       <source url="https://guide.scutosc.cn/rss.xml">Ray</source>
+      <description>功能详情...</description>
+      <pubDate>Wed, 18 Sep 2024 13:08:28 GMT</pubDate>
+      <content:encoded><![CDATA[<p>功能详情...</p>
+]]></content:encoded>
+    </item>
+    <item>
+      <title>Bar 功能</title>
+      <link>https://guide.scutosc.cn/demo/bar/</link>
+      <guid>https://guide.scutosc.cn/demo/bar/</guid>
+      <source url="https://guide.scutosc.cn/rss.xml">Bar 功能</source>
+      <description>介绍 我们支持 bar 功能，... 详情 ...</description>
+      <pubDate>Wed, 18 Sep 2024 13:08:28 GMT</pubDate>
+      <content:encoded><![CDATA[<h2>介绍</h2>
+<p>我们支持 bar 功能，...</p>
+<h2>详情</h2>
+<ul>
+<li><a href="/demo/bar/baz.html" target="_blank">baz</a></li>
+<li>...</li>
+</ul>
+]]></content:encoded>
+    </item>
+    <item>
+      <title>Baz</title>
+      <link>https://guide.scutosc.cn/demo/bar/baz.html</link>
+      <guid>https://guide.scutosc.cn/demo/bar/baz.html</guid>
+      <source url="https://guide.scutosc.cn/rss.xml">Baz</source>
       <description>功能详情...</description>
       <pubDate>Wed, 18 Sep 2024 13:08:28 GMT</pubDate>
       <content:encoded><![CDATA[<p>功能详情...</p>
