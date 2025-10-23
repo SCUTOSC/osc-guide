@@ -86,6 +86,7 @@ python3 multi.py ##主要逻辑所在文件
 ### 食材
 
 - 只需要有一个浏览器就行了（以Edge浏览器为例）
+- [脚本](https://github.com/xboHodx/yuketangHelperBrowserConsoleVersion)
 
 ### 食用方法
 
