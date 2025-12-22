@@ -6,8 +6,8 @@
     <link>https://guide.scutosc.cn/</link>
     <description>Get started with OSC</description>
     <language>zh-CN</language>
-    <pubDate>Sat, 13 Sep 2025 07:58:46 GMT</pubDate>
-    <lastBuildDate>Sat, 13 Sep 2025 07:58:46 GMT</lastBuildDate>
+    <pubDate>Mon, 22 Dec 2025 05:49:29 GMT</pubDate>
+    <lastBuildDate>Mon, 22 Dec 2025 05:49:29 GMT</lastBuildDate>
     <generator>@vuepress/plugin-feed</generator>
     <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
     <category>Advance</category>
@@ -369,17 +369,18 @@
       <link>https://guide.scutosc.cn/guide/tools/using%20yuketang_helper.html</link>
       <guid>https://guide.scutosc.cn/guide/tools/using%20yuketang_helper.html</guid>
       <source url="https://guide.scutosc.cn/rss.xml">YKT Helper</source>
-      <description>Prerequisite Python3环境 命令行终端 Chrome浏览器（本教程使用Arc，魔改Chrome） 单线程/多线程版本 刷课代码 Github仓库 Steps 获取脚本启动所需用户信息 打开雨课堂官网，本教程以泥为例 泥-雨课堂 扫码登录，来到这个熟悉的界面 image.pngimage.png 右键-&amp;gt;检查（如果快捷键无冲突，F12是...</description>
+      <description>python 版 Prerequisite Python3环境 命令行终端 Chrome浏览器（本教程使用Arc，魔改Chrome） 单线程/多线程版本 刷课代码 Github仓库 Steps 获取脚本启动所需用户信息 打开雨课堂官网，本教程以泥为例 泥-雨课堂 扫码登录，来到这个熟悉的界面 image.pngimage.png 右键-&amp;gt;检查（如果快捷...</description>
       <pubDate>Mon, 30 Sep 2024 14:45:04 GMT</pubDate>
-      <content:encoded><![CDATA[<h2>Prerequisite</h2>
+      <content:encoded><![CDATA[<h2>python 版</h2>
+<h3>Prerequisite</h3>
 <ul>
 <li>Python3环境</li>
 <li>命令行终端</li>
 <li>Chrome浏览器（本教程使用Arc，魔改Chrome）</li>
 <li>单线程/多线程版本 刷课代码 <a href="https://github.com/Cat1007/yuketangHelperSCUTLite?tab=readme-ov-file" target="_blank" rel="noopener noreferrer">Github仓库</a></li>
 </ul>
-<h2>Steps</h2>
-<h3>获取脚本启动所需用户信息</h3>
+<h3>Steps</h3>
+<h4>获取脚本启动所需用户信息</h4>
 <ol>
 <li>
 <p>打开雨课堂官网，本教程以泥为例 <a href="https://scut.yuketang.cn/" target="_blank" rel="noopener noreferrer">泥-雨课堂</a></p>
@@ -410,7 +411,7 @@
 </li>
 </ol>
 <figure><img src="https://raw.githubusercontent.com/xiaolin2004/PicForMD/main/20240928220838.png" alt="image.png" tabindex="0" loading="lazy"><figcaption>image.png</figcaption></figure>
-<h3>启动刷课脚本</h3>
+<h4>启动刷课脚本</h4>
 <ol>
 <li>不要关闭浏览器，接下来，打开你的代码编辑器，打开刷课代码中主要逻辑所在文件，本文使用多线程版本，文件名为 <code>multi.py</code></li>
 </ol>
@@ -445,6 +446,37 @@
 <p class="hint-container-title">提示</p>
 <p>现在，你可以放心的去做其他事情了~</p>
 </div>
+<h2>JavaScript 版</h2>
+<h3>食材</h3>
+<ul>
+<li>只需要有一个浏览器就行了（以Edge浏览器为例）</li>
+<li><a href="https://github.com/xboHodx/yuketangHelperBrowserConsoleVersion" target="_blank" rel="noopener noreferrer">脚本</a></li>
+</ul>
+<h3>食用方法</h3>
+<p>请务必使用<code>scut.yuketang.cn</code>，而不是其他雨课堂平台，如<code>changjiang.yuketang.cn</code></p>
+<ol>
+<li>
+<p>登录雨课堂网页版</p>
+</li>
+<li>
+<p>点击网址栏旁边的 <code>锁</code> 按钮，然后点击 <code>Cookie和站点数据</code><img src="https://s2.loli.net/2025/09/30/9lRqIvZGyBJDVM8.png" alt="image.png" loading="lazy"></p>
+</li>
+<li>
+<p>一路点下去找到名称为 <code>sessionid</code> 的 Cookie，将 <code>内容</code> 粘贴到脚本开头的对应位置<img src="https://s2.loli.net/2025/09/30/sY2Mg3NoXv5p6kO.png" alt="image.png" loading="lazy">
+<img src="https://s2.loli.net/2025/09/30/1aoL9z8ZXktC2qr.png" alt="image.png" loading="lazy"> 注意，要保留单引号</p>
+</li>
+<li>
+<p>在雨课堂页面中，按键盘上的 <code>F12</code> 打开开发者窗口，点击上方的 <code>控制台</code> 按钮</p>
+</li>
+<li>
+<p>输入脚本，回车，找到要刷的课的 <code>id</code>，输入 <code>selectCourse(id)</code> 来开始刷课<img src="https://s2.loli.net/2025/09/30/wVuLaoydCizmWPE.png" alt="image.png" loading="lazy"></p>
+</li>
+</ol>
+<h3>ps</h3>
+<ol>
+<li>想要退出脚本的话，直接刷新网页就行了</li>
+<li>脚本开头可以设置倍速</li>
+</ol>
 ]]></content:encoded>
       <enclosure url="https://raw.githubusercontent.com/xiaolin2004/PicForMD/main/20240928220226.png" type="image/png"/>
     </item>
@@ -1276,32 +1308,6 @@ MSYS2可以接受CMD传递的参数，如<code>msys2.exe help</code></p>
       <pubDate>Wed, 18 Sep 2024 13:08:28 GMT</pubDate>
     </item>
     <item>
-      <title>Bar 功能</title>
-      <link>https://guide.scutosc.cn/demo/bar/</link>
-      <guid>https://guide.scutosc.cn/demo/bar/</guid>
-      <source url="https://guide.scutosc.cn/rss.xml">Bar 功能</source>
-      <description>介绍 我们支持 bar 功能，... 详情 ...</description>
-      <pubDate>Wed, 18 Sep 2024 13:08:28 GMT</pubDate>
-      <content:encoded><![CDATA[<h2>介绍</h2>
-<p>我们支持 bar 功能，...</p>
-<h2>详情</h2>
-<ul>
-<li><a href="/demo/bar/baz.html" target="_blank">baz</a></li>
-<li>...</li>
-</ul>
-]]></content:encoded>
-    </item>
-    <item>
-      <title>Baz</title>
-      <link>https://guide.scutosc.cn/demo/bar/baz.html</link>
-      <guid>https://guide.scutosc.cn/demo/bar/baz.html</guid>
-      <source url="https://guide.scutosc.cn/rss.xml">Baz</source>
-      <description>功能详情...</description>
-      <pubDate>Wed, 18 Sep 2024 13:08:28 GMT</pubDate>
-      <content:encoded><![CDATA[<p>功能详情...</p>
-]]></content:encoded>
-    </item>
-    <item>
       <title>Foo 功能</title>
       <link>https://guide.scutosc.cn/demo/foo/</link>
       <guid>https://guide.scutosc.cn/demo/foo/</guid>
@@ -1322,6 +1328,32 @@ MSYS2可以接受CMD传递的参数，如<code>msys2.exe help</code></p>
       <link>https://guide.scutosc.cn/demo/foo/ray.html</link>
       <guid>https://guide.scutosc.cn/demo/foo/ray.html</guid>
       <source url="https://guide.scutosc.cn/rss.xml">Ray</source>
+      <description>功能详情...</description>
+      <pubDate>Wed, 18 Sep 2024 13:08:28 GMT</pubDate>
+      <content:encoded><![CDATA[<p>功能详情...</p>
+]]></content:encoded>
+    </item>
+    <item>
+      <title>Bar 功能</title>
+      <link>https://guide.scutosc.cn/demo/bar/</link>
+      <guid>https://guide.scutosc.cn/demo/bar/</guid>
+      <source url="https://guide.scutosc.cn/rss.xml">Bar 功能</source>
+      <description>介绍 我们支持 bar 功能，... 详情 ...</description>
+      <pubDate>Wed, 18 Sep 2024 13:08:28 GMT</pubDate>
+      <content:encoded><![CDATA[<h2>介绍</h2>
+<p>我们支持 bar 功能，...</p>
+<h2>详情</h2>
+<ul>
+<li><a href="/demo/bar/baz.html" target="_blank">baz</a></li>
+<li>...</li>
+</ul>
+]]></content:encoded>
+    </item>
+    <item>
+      <title>Baz</title>
+      <link>https://guide.scutosc.cn/demo/bar/baz.html</link>
+      <guid>https://guide.scutosc.cn/demo/bar/baz.html</guid>
+      <source url="https://guide.scutosc.cn/rss.xml">Baz</source>
       <description>功能详情...</description>
       <pubDate>Wed, 18 Sep 2024 13:08:28 GMT</pubDate>
       <content:encoded><![CDATA[<p>功能详情...</p>
